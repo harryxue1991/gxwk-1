@@ -1,0 +1,26 @@
+{
+"hlogo": "src/assets/images/head_logo.png",
+"indexlist": [
+    {
+        "cass": "can",
+        "pic": "src/assets/images/pic1.jpg",
+        "conth2":"1.1节 HTML5概述",
+        "contp":"讲述了万维网与HTML语言的特性：简单、易扩展、跨平台性，应用广等特性。HTML语言在1993年发布第一版本，目前已经到5.1版本。目前HTML的版本标准由万维网联盟指定，万维网联盟（World Wide Web Consortium），简称W3C。HTML5的出现，标志着从Web Page到Web App的改变，从传统桌面PC Web应用开发到移动Mobile Web应用开发的改变。开发web应用环境需要编辑器、浏览器、服务器。",
+        "link":"/cat?id=1"
+    },
+    {
+        "cass": "can",
+        "pic": "src/assets/images/pic2.jpg",
+        "conth2":"1.2节 HTML5基础知识",
+        "contp":"讲述了HTML程序构成文件：HTML文件、CSS文件、JS文件。常用的编码：UTF-8、GB2312、ISO-8859-1等。标记语法：标记语法定义、属性语法定义、特殊语法定义。HTML5标记结构分为Web文档结构、Web页面结构、Web数据内容、Web内容处理。",
+        "link":"/cat?id=2"
+    },
+    {
+        "cass": "cant",
+        "pic": "src/assets/images/pic3.jpg",
+        "conth2":"1.3节 利用Dreamweaver调试HTML5代码",
+        "contp":"介绍HTML的文档结构：序言和文档正文，文档头标记、文档体标记。在dreamwaver中编写一个完整的HTML程序的过程，以及在HTML中使用CSS样式和Javascript的各种方式介绍。调试类型和在浏览器中启动调试模式的讲解，完成浏览器中调试HTML程序。",
+        "link":""
+    }
+]
+}

@@ -1,0 +1,71 @@
+{
+    "main":{
+    "vio": "-v2",
+    "title":"1.2节 HTML5基础知识",
+     "headlogo":"src/assets/images/head_logo.png",
+    "videosrc":"src/assets/video/1.2a.mp4",
+    "play":"src/assets/images/playicon.png"
+    },
+    "pics":[
+    {  "name":"知识1-HTML程序结构","tigger": 18,"tigtime": "00:18","imgs": "src/assets/picture/1.2_1.png"},
+    { "name":"知识2-编码", "tigger": 210,"tigtime": "03:30","imgs": "src/assets/picture/1.2_2.png"},
+    { "name":"知识3-标记语法", "tigger": 325,"tigtime": "05:25","imgs": "src/assets/picture/1.2_3.png"},
+    { "name":"知识4-标记结构", "tigger": 657,"tigtime": "10:57","imgs": "src/assets/picture/1.2_4.png"},
+    { "name":"案例5-体验认知标记", "tigger": 750,"tigtime": "12:30","imgs": "src/assets/picture/1.2_1a.png"}
+],
+ "danchoice": [
+    {
+        "name":"知识1习题",
+        "tigger": 209,
+        "tigtime": "03:29",
+        "radio":{
+                "topic":"[单选题]",
+                "subject":"HTML程序构成文件不包括哪一种？( )",
+                "items": [
+                        {"ans":"false","sel":"A","opans":"HTML文件"},
+                        {"ans":"true","sel":"B","opans":"Jquery文件"},
+                        {"ans":"false","sel":"C","opans":"CSS文件"},
+                        {"ans":"false","sel":"D","opans":"JS文件"}
+                ],
+                "answer": "B",
+                "analysis": "HTML文件是程序的主要文件，可以在浏览器中直接执行，CSS文件是HTML的样式修饰文件，JS文件是HTML的活动脚本文件"
+        }
+    }
+],
+ "dobchoice":[
+    {
+       "name":"知识2习题",
+        "tigger": 324,
+        "tigtime": "05:24",
+        "multiple":  {
+                "subject":"下列哪些是常用的html编码？( )  (多选)",
+                "items": [
+                    {"ans":"false","sel":"A","opans":"ISO-8859-4"},
+                    {"ans":"true","sel":"B","opans":"UTF-8"},
+                    {"ans":"true","sel":"C","opans":"ISO-8859-1"},
+                    {"ans":"true","sel":"D","opans":"GB2312"}
+                ],
+                "answer": "BCD",
+                "analysis": "UTF-8是通用编码，GB2312是汉字编码，ISO-8859-1是西文编码"
+        }
+    },
+    {
+        "name":"知识4习题",
+        "tigger": 963,
+        "tigtime": "16:03",
+        "multiple":  {
+                "subject":"HTML5中所有的标记都是HTML标准规定的，在W3C的官方标准中标记分类正确的是( )",
+                "items": [
+                    {"ans":"true","sel":"A","opans":"Web文档结构"},
+                    {"ans":"true","sel":"B","opans":"Web页面结构"},
+                    {"ans":"true","sel":"C","opans":"Web数据内容"},
+                    {"ans":"true","sel":"D","opans":"Web内容处理"}
+                ],
+                "answer": "ABCD",
+                "analysis": "分为如下四类：Web文档结构包括根标记和文档元标记，Web页面结构包括分节标记和分组标记，Web数据内容包括文本语义标记、内容嵌入标记、连接标记、编辑标记、表格数据标记、表单标记，Web内容处理包括脚本标记"
+            }
+    }
+],
+"videosmall" : []
+}    
+

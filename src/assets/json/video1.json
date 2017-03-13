@@ -1,0 +1,108 @@
+{
+    "main":{
+    "vio": "-v1",
+    "title":"1.1节 HTML5概述",
+    "headlogo":"src/assets/images/head_logo.png",
+    "videosrc":"src/assets/video/1.1a.mp4",
+    "play":"src/assets/images/playicon.png"
+    },
+    "pics": [
+        { "name":"知识1-万维网与HTML", "tigger": 123,"tigtime": "02:03","imgs": "src/assets/picture/1.1_1.png"},
+        {  "name":"案例1-体验认知超文本","tigger": 238,"tigtime": "03:58","imgs": "src/assets/picture/1.1_1a.png"},
+        {  "name":"知识2-HTML版本","tigger": 389,"tigtime": "06:29","imgs": "src/assets/picture/1.1_2.png"},
+        {  "name":"案例2-万维网联盟官网","tigger": 552,"tigtime": "09:12","imgs": "src/assets/picture/1.1_2a.png"},
+        {  "name":"知识3-HTML5与未来发展","tigger": 676,"tigtime": "11:16","imgs": "src/assets/picture/1.1_3.png"},
+        {  "name":"案例3-web page与web app","tigger": 804,"tigtime": "13:24","imgs": "src/assets/picture/1.1_3a.png"},
+        {  "name":"知识4-web开发环境","tigger": 944,"tigtime": "15:44","imgs": "src/assets/picture/1.1_4.png"},
+        {  "name":"案例4-发布一个HTML文件", "tigger": 1044,"tigtime": "17:24","imgs": "src/assets/picture/1.1_4a.png"}
+    ],
+    "danchoice": [
+        {
+            "name":"知识1习题",
+            "tigger": 388.0,
+            "tigtime": "06:28",
+            "radio":{
+                    "topic":"[单选题]",
+                    "subject":"万维网是互联网上的最热门应用，英文全称为“World Wide Web”，以下简写错误的是( )",
+                    "items": [
+                            {"ans":"false","sel":"A","opans":"Web"},
+                            {"ans":"false","sel":"B","opans":"WWW"},
+                            {"ans":"false","sel":"C","opans":"W3"},
+                            {"ans":"true","sel":"D","opans":"3W"}
+                    ],
+                    "answer": "D",
+                    "analysis": "英文全称为“World Wide Web”"
+            }
+        },
+        {
+             "name":"知识1习题",
+            "tigger": 388.3,
+            "tigtime": "06:28",
+            "radio":{
+                    "topic":"[单选题]",
+                    "subject":"关于HTML语言的特性描述，错误的是( )",
+                    "items": [
+                            {"ans":"false","sel":"A","opans":"简易性"},
+                            {"ans":"false","sel":"B","opans":"可扩展性 "},
+                            {"ans":"false","sel":"C","opans":"平台无关性 "},
+                            {"ans":"true","sel":"D","opans":"面向对象"}
+                    ],
+                    "answer": "D",
+                    "analysis": "A：简易性，HTML版本升级采用超集方式，从而更加灵活方便。B：可扩展性，HTML语言的广泛应用带来了加强功能，增加标识符等要求，HTML采取子类元素的方式，为系统扩展带来保证。 C：平台无关性。虽然PC机大行其道，但使用MAC等其他机器的大有人在，HTML可以使用在广泛的平台上.D：面向对象属于Java的特性，可以扩展和复用代码"
+            }
+        },
+        {
+             "name":"知识2习题",
+            "tigger": 675,
+            "tigtime": "11:15",
+            "radio":{
+                    "topic":"[单选题]",
+                    "subject":"HTML语言在哪一年发布第一版本？( )",
+                    "items": [
+                            {"ans":"true","sel":"A","opans":"1993年"},
+                            {"ans":"false","sel":"B","opans":"1995年 "},
+                            {"ans":"false","sel":"C","opans":"1997年 "},
+                            {"ans":"false","sel":"D","opans":"1999年"}
+                    ],
+                    "answer": "A",
+                    "analysis": "1993年互联网工程工作小组（IETF）作为工作草案（非标准）发布。"
+            }
+        }
+    ],
+    "dobchoice": [
+        {
+             "name":"知识3习题",
+            "tigger": 943,
+            "tigtime": "15:43",
+            "multiple":  {
+                    "subject":"HTML5的出现标志着万维网技术发展的改变,正确的是( )",
+                    "items": [
+                        {"ans":"true","sel":"A","opans":"从Web Page到Web App的改变"},
+                        {"ans":"true","sel":"B","opans":"从传统桌面PC Web应用开发到移动Mobile Web应用开发的改变"},
+                        {"ans":"false","sel":"C","opans":"脚本语言新的突破"},
+                        {"ans":"false","sel":"D","opans":"支持分布式的运算和处理"}
+                    ],
+                    "answer": "AB",
+                    "analysis": "C、D选项都是js的特性"
+            }
+        },
+        {
+             "name":"知识4习题",
+            "tigger": 1171,
+            "tigtime": "19:31",
+            "multiple":  {
+                    "subject":"开发Web应用的环境包含( )部分",
+                    "items": [
+                        {"ans":"true","sel":"A","opans":"编写Web应用的代码编辑器"},
+                        {"ans":"true","sel":"B","opans":"运行与测试Web应用的浏览器"},
+                        {"ans":"false","sel":"C","opans":"web客户端"},
+                        {"ans":"true","sel":"D","opans":"Web服务器"}
+                    ],
+                    "answer": "ABD",
+                    "analysis": "一、编写Web应用的代码编辑器；二、运行与测试Web应用的浏览器；三、如果要选择发布编写的Web应用，还需要一个Web服务器。"
+                }
+        }
+    ],
+    "videosmall" : []
+    }
+
